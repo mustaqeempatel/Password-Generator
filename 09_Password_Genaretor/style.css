@@ -1,0 +1,107 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: url('https://w0.peakpx.com/wallpaper/428/341/HD-wallpaper-cybersecurity-terminal-hacker-computer-ubuntu-linux.jpg') no-repeat center center/cover;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(6, 6, 6, 0.7);
+      backdrop-filter: blur(5px);
+      width: 450px;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .container h3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 29px;
+      margin-bottom: 50px;
+      font-weight: 800;
+      color: #fbfbfb;
+    }
+
+    .container h2 span {
+      color: red;
+      font-size: 42px;
+      margin-right: 12px;
+    }
+
+    .display-box {
+      width: 100%;
+      height: 70px;
+      border: none;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+      outline: none;
+      font-weight: 600;
+      color: #050505;
+    }
+
+    .range-container {
+      margin-bottom: 35px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #fffefe;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      margin-top: 10px;
+      accent-color: red;
+      height: 10px;
+      cursor: pointer;
+    }
+
+    .options {
+      text-align: left;
+      margin-bottom: 40px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #fbf9f9;
+    }
+
+    .options label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 12px 0;
+    }
+
+    input[type="checkbox"] {
+      width: 28px;
+      height: 28px;
+      accent-color: #d32f2f;
+    }
+
+    button {
+      background: #f5a623;
+      color: black;
+      font-weight: 700;
+      border: none;
+      padding: 20px 0;
+      width: 100%;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 24px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #f78a0e;
+    }
